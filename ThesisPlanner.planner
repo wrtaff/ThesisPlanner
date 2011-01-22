@@ -115,7 +115,11 @@
         <predecessor id="1" predecessor-id="19" type="SS"/>
       </predecessors>
     </task>
-    <task id="28" name="Bibliography" note="" work="28800" start="20110119T000000Z" end="20110119T170000Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="28" name="Bibliography" note="" work="864000" start="20110119T000000Z" end="20110301T170000Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <predecessors>
+        <predecessor id="1" predecessor-id="26" type="SF"/>
+      </predecessors>
+    </task>
     <task id="29" name="Thesis Release Form" note="" work="28800" start="20110119T000000Z" end="20110119T170000Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
     <task id="30" name="Signature Page" note="" work="28800" start="20110119T000000Z" end="20110119T170000Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
   </tasks>
