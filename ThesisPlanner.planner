@@ -39,14 +39,14 @@
         </predecessors>
       </task>
     </task>
-    <task id="7" name="CH2" note="" work="477000" start="20110119T000000Z" end="20110210T133000Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-      <task id="8" name="CH2 write" note="" work="201600" start="20110119T000000Z" end="20110127T170000Z" work-start="20110119T080000Z" percent-complete="54" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="9" name="CH2 advisors" note="" work="160200" start="20110127T170000Z" end="20110204T133000Z" work-start="20110128T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="7" name="CH2" note="" work="419400" start="20110119T000000Z" end="20110208T133000Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="8" name="CH2 write" note="" work="144000" start="20110119T000000Z" end="20110125T170000Z" work-start="20110119T080000Z" percent-complete="54" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="9" name="CH2 advisors" note="" work="160200" start="20110125T170000Z" end="20110202T133000Z" work-start="20110126T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="8" type="FS"/>
         </predecessors>
       </task>
-      <task id="10" name="CH2 advisor changes" note="" work="115200" start="20110204T133000Z" end="20110210T133000Z" work-start="20110204T133000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="10" name="CH2 advisor changes" note="" work="115200" start="20110202T133000Z" end="20110208T133000Z" work-start="20110202T133000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="9" type="FS"/>
         </predecessors>
@@ -126,4 +126,4 @@
   <resource-groups/>
   <resources/>
   <allocations/>
-</project> 
+</project>
