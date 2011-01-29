@@ -52,9 +52,9 @@
         </predecessors>
       </task>
     </task>
-    <task id="11" name="CH3" note="" work="259200" start="20110119T000000Z" end="20110131T170000Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-      <task id="12" name="CH3 advisors" note="" work="201600" start="20110119T000000Z" end="20110127T170000Z" work-start="20110119T080000Z" percent-complete="59" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="13" name="CH3 advisor changes" note="" work="57600" start="20110127T170000Z" end="20110131T170000Z" work-start="20110128T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="11" name="CH3" note="" work="316800" start="20110119T000000Z" end="20110202T170000Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="12" name="CH3 advisors" note="" work="259200" start="20110119T000000Z" end="20110131T170000Z" work-start="20110119T080000Z" percent-complete="59" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="13" name="CH3 advisor changes" note="" work="57600" start="20110131T170000Z" end="20110202T170000Z" work-start="20110201T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="12" type="FS"/>
         </predecessors>
@@ -115,9 +115,9 @@
         <predecessor id="1" predecessor-id="19" type="SS"/>
       </predecessors>
     </task>
-    <task id="28" name="Bibliography" note="" work="864000" start="20110119T000000Z" end="20110301T170000Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="28" name="Bibliography" note="" work="185400" start="20110208T133000Z" end="20110216T170000Z" work-start="20110208T133000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
-        <predecessor id="1" predecessor-id="26" type="SF"/>
+        <predecessor id="1" predecessor-id="10" type="FS"/>
       </predecessors>
     </task>
     <task id="29" name="Thesis Release Form" note="" work="28800" start="20110119T000000Z" end="20110119T170000Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
