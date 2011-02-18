@@ -26,20 +26,20 @@
     <task id="2" name="CENIC" note="" work="115200" start="20110306T000000Z" end="20110310T170000Z" work-start="20110307T080000Z" percent-complete="1" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="must-start-on" time="20110306T000000Z"/>
     </task>
-    <task id="3" name="CH1" note="" work="882000" start="20110119T000000Z" end="20110302T140000Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-      <task id="4" name="Ch1 write" note="" work="539100" start="20110119T000000Z" end="20110214T144500Z" work-start="20110119T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="5" name="Ch1 advisors" note="" work="288000" start="20110214T144500Z" end="20110228T144500Z" work-start="20110214T144500Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="3" name="CH1" note="" work="1046700" start="20110119T000000Z" end="20110310T104500Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="4" name="Ch1 write" note="" work="703800" start="20110119T000000Z" end="20110222T113000Z" work-start="20110119T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="5" name="Ch1 advisors" note="" work="288000" start="20110222T113000Z" end="20110308T113000Z" work-start="20110222T113000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="4" type="FS"/>
         </predecessors>
       </task>
-      <task id="6" name="Ch1 advisor changes" note="" work="54900" start="20110228T144500Z" end="20110302T140000Z" work-start="20110228T144500Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="6" name="Ch1 advisor changes" note="" work="54900" start="20110308T113000Z" end="20110310T104500Z" work-start="20110308T113000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="5" type="FS"/>
         </predecessors>
       </task>
     </task>
-    <task id="7" name="CH2" note="" work="344700" start="20110119T000000Z" end="20110203T164500Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="7" name="CH2" note="" work="344700" start="20110119T000000Z" end="20110203T164500Z" work-start="20110119T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
       <task id="8" name="CH2 write" note="" work="144000" start="20110119T000000Z" end="20110125T170000Z" work-start="20110119T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
       <task id="9" name="CH2 advisors" note="" work="160200" start="20110125T170000Z" end="20110202T133000Z" work-start="20110126T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
@@ -52,7 +52,7 @@
         </predecessors>
       </task>
     </task>
-    <task id="11" name="CH3" note="" work="460800" start="20110119T000000Z" end="20110209T170000Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="11" name="CH3" note="" work="460800" start="20110119T000000Z" end="20110209T170000Z" work-start="20110119T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
       <task id="12" name="CH3 advisors" note="" work="259200" start="20110119T000000Z" end="20110131T170000Z" work-start="20110119T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
       <task id="13" name="CH3 advisor changes" note="" work="201600" start="20110131T170000Z" end="20110209T170000Z" work-start="20110201T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
@@ -62,7 +62,7 @@
     </task>
     <task id="14" name="CH4" note="" work="892800" start="20110119T000000Z" end="20110302T170000Z" work-start="20110119T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <task id="15" name="CH4 write" note="" work="489600" start="20110119T000000Z" end="20110210T170000Z" work-start="20110119T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="16" name="CH4 advisors" note="" work="201600" start="20110210T170000Z" end="20110221T170000Z" work-start="20110211T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="16" name="CH4 advisors" note="" work="201600" start="20110210T170000Z" end="20110221T170000Z" work-start="20110211T080000Z" percent-complete="45" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="15" type="FS"/>
         </predecessors>
@@ -79,7 +79,7 @@
           <predecessor id="1" predecessor-id="22" type="FS"/>
         </predecessors>
       </task>
-      <task id="20" name="CH5 advisors" note="" work="201600" start="20110210T170000Z" end="20110221T170000Z" work-start="20110211T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="20" name="CH5 advisors" note="" work="201600" start="20110210T170000Z" end="20110221T170000Z" work-start="20110211T080000Z" percent-complete="45" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="19" type="FS"/>
         </predecessors>
@@ -93,18 +93,18 @@
     <task id="22" name="Lab Testing" note="" work="172800" start="20110131T000000Z" end="20110207T170000Z" work-start="20110131T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="start-no-earlier-than" time="20110131T000000Z"/>
     </task>
-    <task id="23" name="CH6" note="" work="403200" start="20110207T170000Z" end="20110225T170000Z" work-start="20110208T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-      <task id="24" name="CH6 write" note="" work="142200" start="20110207T170000Z" end="20110214T163000Z" work-start="20110208T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
+    <task id="23" name="CH6" note="" work="520200" start="20110207T170000Z" end="20110304T083000Z" work-start="20110208T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="24" name="CH6 write" note="" work="259200" start="20110207T170000Z" end="20110218T170000Z" work-start="20110208T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="19" type="SS"/>
         </predecessors>
       </task>
-      <task id="25" name="CH6 advisors" note="" work="201600" start="20110214T163000Z" end="20110223T163000Z" work-start="20110214T163000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="25" name="CH6 advisors" note="" work="201600" start="20110218T170000Z" end="20110301T170000Z" work-start="20110221T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="24" type="FS"/>
         </predecessors>
       </task>
-      <task id="26" name="CH6 advisor changes" note="" work="59400" start="20110223T163000Z" end="20110225T170000Z" work-start="20110223T163000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="26" name="CH6 advisor changes" note="" work="59400" start="20110301T170000Z" end="20110304T083000Z" work-start="20110302T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="25" type="FS"/>
         </predecessors>
@@ -115,7 +115,7 @@
         <predecessor id="1" predecessor-id="19" type="SS"/>
       </predecessors>
     </task>
-    <task id="28" name="Bibliography" note="" work="337500" start="20110203T164500Z" end="20110221T143000Z" work-start="20110203T164500Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="28" name="Bibliography" note="" work="461700" start="20110203T164500Z" end="20110225T170000Z" work-start="20110203T164500Z" percent-complete="45" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="10" type="FS"/>
       </predecessors>
